@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topcars-section{
+    width: 80%;
+    margin: auto;   
+    padding-bottom: 30px;
+}
+.topcars-container{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 7%;
+}
+
+@media(max-width:660px){
+    .topcars-col{
+        width: 100%;
+        padding: 10px;
+    }
+    .topcars-row{
+        width: 100%;
+    }
+}
+@media(min-width:960px){
+    .topcars-col{
+        width: 50%;
+        padding: 10px;
+    }
+    .topcars-row{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.topcars-card{
+    box-shadow: 0 0 1px 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.topcars-img img{
+    width: 100%;
+}
+.topcars-content{
+    padding: 10px;
+}

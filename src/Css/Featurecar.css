@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fea-container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.fea-container h2{
+    padding: 10px 0;
+}
+.feature-btn {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.feature-btn button{
+    border: none;
+   
+}
+@media(max-width:960px){
+    .feature-btn{
+        width: 100%;
+    }
+}
+.fea-col{
+    width: 33.33%;
+    padding: 10px;
+}
+.fea-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fea-card{
+    box-shadow: 0 0 1px 0;
+}
+.fea-img img{
+    width: 100%;
+}
+.fea-content{
+    padding: 15px;
+}
+/* .fea-content p,small{
+    padding-top: 2px;
+} */
+.fea-content button{
+    margin-top: 10px;
+}
+/* .fea-content p span{
+    padding:0 5px;
+} */
+.fea-content .pop1{
+    padding-right: 5px;
+}
+.pop1{
+    padding-left: 5px;
+}
+.pop2{
+    color: rgb(37, 210, 233);
+}
+.pop3{
+    opacity: 0.4;
+}
+.pop4{
+    font-weight: 900;
+}
+.pop5{
+    /* font-size: 15px; */
+    padding-top: 10px;
+}
+.pop-para,.pop-para1{
+    font-size:20px;
+}
+.pop-para1 .pop3{
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+.jus-col{
+    width:33.33%;
+    padding: 10px;
+}
+
+.jus-card{
+    box-shadow: 0 0 1px 0;
+    
+}
+.jus-img img{
+    width: 100%;
+}
+.jus-content,.lable{
+    padding-left: 10px;
+}
+.jus-content h3,p{
+    padding-bottom: 2px;
+}
+.jus-content button{
+    margin: 10px 0;
+}
+.jus-sn{
+    opacity: 0.4;
+}
+.jus-para{
+    font-size: 20px;
+}
+.jus-para .jus-sn{
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+
+
+
+
+.up-col{
+    width: 33.33%;
+    padding: 10px;
+}
+.up-card{
+    box-shadow: 0 0 1px 0;
+}
+.up-img img{
+    width: 100%;
+}
+.up-content{
+    padding: 10px;
+}
+.up-content h3,p,small{
+    padding-top:8px;
+}
+.up-para{
+    font-size: 20px;
+}
+.up-sn,.up-sn1{
+    font-size: 13px;
+    opacity: 0.4;
+}
+.up-btn{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.up-btn button{
+    width: 95%;
+}
+ .up-ws{
+    font-size: 18px;
+    padding-right: 5px;
+}

@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.allbrand-detail-container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 7%;
+}
+
+@media(max-width:660px){
+    .allbrand-detail-col{
+        width: 100%;
+    }
+    .allbrand-detail-row{
+        width: 90%;
+        box-shadow: 0 0 1px 0;
+        margin-top: 20px;
+    }
+    .allbrand-detail-img img{
+        width: 80%;
+    }
+}
+@media(min-width:960px){
+    .allbrand-detail-col{
+        width: 50%;
+    }
+    .allbrand-detail-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 1px 0;
+        margin-top: 20px;
+    }
+    .allbrand-detail-img img{
+        width: 60%;
+    }
+}
+
+
+.allbrand-detail-content{
+    padding: 10px;
+}
+.allbrand-detail-col2{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.allbrand-detail-col2 small{
+    padding: 5px;
+  box-shadow: 0 0 2px 0;
+}
+.allbrand-detail-col2 small i{
+    color: rgb(0,175,160);
+    font-size: 15px;
+}
+.allbrand-compare-head{
+    padding-top: 20px;
+}

@@ -1,0 +1,91 @@
+
+
+.banner-section{
+    background-image: url("https://imgd.aeplcdn.com/0x0/cw/static/landing-banners/homepage-d-2021.jpg?v=19042022");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+ .banner-link{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+.banner-link .eg{
+   color: white;
+   text-decoration: none;
+}
+
+
+
+.ban input{
+    width: 100%;
+   padding-left:8%;
+    border: none;
+    font-size: 15px;
+}
+
+.ban {
+    display: flex;
+    justify-content: center;
+}
+.banner button{
+    padding: 10px 25px;
+    border: none;
+    background-color:rgb(229,48,18);
+    color: aliceblue;
+}
+
+
+
+
+
+
+@media(min-width:320px){
+	.banner-section{
+					width:100%;
+					height:400px;
+                    padding-top: 40%;
+                   }
+                   .banner{
+                    width: 90%;
+                    margin: auto;
+                    text-align: center;
+                    color: white;
+                   }
+}
+
+/*ipad*/
+@media(min-width:660px){
+		.banner-section{
+						width:100%;
+						height:400px;
+                        padding-top: 30%;
+                       }
+                       .banner{
+                        width: 90%;
+                        margin: auto;
+                        text-align: center;
+                        color: white;
+                       }
+
+}
+
+/*laptop*/
+@media(min-width:960px){
+		.banner-section{
+						width:100%;
+						height:400px;
+                         padding-top: 18%;
+                       }
+                       .banner{
+                        width: 45%;
+                        margin: auto;
+                        text-align: center;
+                        color: white;
+                    }
+                    
+}

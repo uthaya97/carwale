@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.trending-container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 7%;
+}
+
+@media(max-width:660px){
+    .trending-col{
+        width: 100%;
+        padding: 10px;
+    }
+    .trending-row{
+        width: 100%;
+    }
+}
+@media(min-width:960px){
+    .trending-col{
+        width: 50%;
+        padding: 10px;
+    }
+    .trending-row{
+        display: flex;
+    }
+}
+
+.trending-img img{
+    width: 100%;
+}
+.trending-card{
+    padding: 20px;
+    box-shadow: 0 0 1px 0;
+}
+.trending-emi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-getyear-btn button{
+    width: 70%;
+    padding: 8px 0;
+    border-radius: 5px;
+    font-size:20px;
+    color: white;
+    border: none;
+    background-color: rgb(229,48,18);
+}
+table{
+    width: 60%;
+  
+}
+.mileage{
+    width: 70%;
+}
+tr,td,th{
+    box-shadow: 0 0 1px 0;
+    padding: 10px;
+}
+.trending-icon-name{
+    display: flex;
+    align-items: center;
+}
+.trending-icon-name i{
+font-size: 25px;
+color: aqua;
+}
+.trending-icon-name .dislike{
+    color: red;
+}
+.trending-icon-name p{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.trend h3{
+    padding-top: 25px;
+}
+.heading{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.trending-slider-img{
+    padding:10px;
+
+}
+.trending-slider-img img{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 1px 0;
+}
+
+
+.imagess h3{
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+@media(min-width:661px){
+.colss1{
+    width:40%;
+    padding: 10px;
+}
+.colss2{
+    width: 30%;
+    padding: 10px;
+}
+.colss3{
+    width: 30%;
+    padding: 10px;
+}
+.colss4{
+    width: 30%;
+    padding: 10px;
+}
+.colss5{
+    width: 50%;
+    padding: 10px;
+}
+.colss6{
+    width: 20%;
+    padding: 10px;
+}
+.colss7{
+    width:20%;
+    padding: 10px;
+}
+.colss8{
+    width: 50%;
+    padding: 10px;
+}
+.colss9{
+    width: 30%;
+    padding: 10px;
+}
+.cardss{
+    box-shadow: 0 0 2px 0;
+}
+.rowss{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+@media(max-width:660px){
+    .colss1{
+        width:100%;
+        padding: 10px;
+    }
+    .colss2{
+        width: 40%;
+        padding: 10px;
+    }
+    .colss3{
+        width: 60%;
+        padding: 10px;
+    }
+    .colss4{
+        width: 60%;
+        padding: 10px;
+    }
+    .colss5{
+        width: 40%;
+        padding: 10px;
+    }
+    .colss6{
+        width: 40%;
+        padding: 10px;
+    }
+    .colss7{
+        width:60%;
+        padding: 10px;
+    }
+    .colss8{
+        width: 60%;
+        padding: 10px;
+    }
+    .colss9{
+        width: 40%;
+        padding: 10px;
+    }
+    .cardss{
+        box-shadow: 0 0 2px 0;
+    }
+    .rowss{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.cardss img{
+    width: 100%;
+    height: 200px;
+}

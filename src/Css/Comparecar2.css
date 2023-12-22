@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.compare2-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+@media(max-width:660px){
+    .compare2-col {
+        width: 100%;
+    }
+    
+    .compare2-row {
+        width: 100%;
+        box-shadow: 0 0 1px 0;
+        padding-bottom: 20px;
+    }
+    .vs2 {
+        padding-top: 10%;
+        color: red;
+        padding-left: 45%;
+    }
+    .input-compare input{
+     width: 80%;
+        
+    }
+    .compare-order{
+       
+        width: 100%;
+        
+    }
+    .orderlist{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .color-row{
+        width: 80%;
+        margin: auto;
+        box-shadow: 0 0 1px 0;
+    }
+    .color-col{
+        width: 100%;
+        padding: 30px;
+        box-shadow: 0 0 1px 0;
+        text-align: center;
+    }
+}
+@media(min-width:661px){
+    .compare2-col {
+        width: 50%;
+    }
+    
+    .compare2-row {
+        width: 100%;
+        display: flex;
+        box-shadow: 0 0 1px 0;
+        padding-bottom: 20px;
+    }
+    .vs2 {
+        padding-top: 10%;
+        color: red;
+    }
+    .input-compare input{
+        width: 100%;
+        padding: 5px 50px;
+        border: none;
+        box-shadow: 0 0 1px 0;
+        
+    }
+    .compare-order{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+    .orderlist{
+        width: 100%;
+        padding-top: 30px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+       
+    }
+    .color-row{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 0 0 1px 0;
+    }
+    .color-col{
+        width: 50%;
+        padding: 30px;
+        box-shadow: 0 0 1px 0;
+        text-align: center;
+    }
+}
+
+.compare2-img img {
+    width: 80%;
+}
+
+.compare2-card {
+    text-align: center;
+}
+
+.compare2-btn {
+    padding-top: 10px;
+}
+
+.vs2 p {
+    font-size: 25px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:10px;
+}
+
+
+
+
+.compare-order li{
+    list-style-type: none;
+}
+.compare-order li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.color-card1{
+    background-color: rgb(0,0,0);
+   height: 50px;
+}
+.color-card2{
+   background-color: rgb(0,28,86);
+    height: 50px;
+}
+.color-card3{
+    background-color: rgb(13,54,34);
+    height: 50px;
+}
+.color-card4{
+    background-color: rgb(7,7,7);
+    height: 50px;
+}
+.color-card5{
+    background-color: rgb(15,16,17);
+    height: 50px;
+}
+.color-card6{
+    background-color: rgb(18,41,60);
+    height: 50px;
+}
+.color-card7{
+    background-color: rgb(66,77,73);
+    height: 50px;
+}
+.color-card8{
+    background-color: rgb(103,78,52);
+    height: 50px;
+}
+.color-card9{
+    background-color:rgb(152,15,21);
+    height: 50px;
+}
+.color-card10{
+    background-color: rgb(215,35,20);
+    height: 50px;
+}
+.color-card11{
+    background-color:rgb(218,172,26);
+    height: 50px;
+}
+.color-card12{
+    background-color: rgb(223,105,0);
+    height: 50px;
+}
+tr .small{
+    color: blue;
+}

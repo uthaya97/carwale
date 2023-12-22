@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.allbrand-container{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.allbrand-col,.allbrand-col1{
+    width: 16.66%;
+    box-shadow: 0 0 .8px 0;
+}
+@media(max-width:960px){
+    .allbrand-col,.allbrand-col1{
+        width:33.33%;
+    }
+}
+.allbrand-row,.allbrand-row1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.allbrand-img,.allbrand-img1{
+    text-align: center;
+    padding: 10px 0;
+}
+.allbrand-img img,.allbrand-img1 img{
+    width: 60%;
+    padding:0 10px;
+    
+}
+.allbrand-img h3,.allbrand-img1 h5{
+    padding-bottom: 10px;
+}
+.allbrand-container h1{
+    padding-bottom: 10px;
+
+}
+.allbrand-btn button,.allbrand-btn1 button{
+    width: 100%;
+    font-size: large;
+    padding: 10px 0;
+    border: none;
+   box-shadow: 0 0 1px 0;
+   color: rgb(47,125,225);
+}

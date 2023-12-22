@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.morecompare-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media(min-width:661px){
+    .morecompare-row{
+        width: 100%;
+        display: flex;
+        box-shadow: 0 0 1px 0;
+    }
+    .morecompare-col{
+        width: 33.33%;
+        text-align: center;
+        padding: 40px;
+    }
+    .morevs{
+        padding-top: 7%;
+    }
+}
+@media(max-width:660px){
+    .morecompare-row{
+        width: 100%;
+        box-shadow: 0 0 1px 0;
+    }
+    .morecompare-col{
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+    }
+    .morevs{
+        padding-left: 45%;
+    }
+}
+
+.morevs p{
+    height: 30px;
+    width: 30px;
+    color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.morecompare-btn button{
+    width: 30%;
+    padding: 7px 0;
+    border: none;
+    color: white;
+    background-color: rgb(229,48,18);
+    font-size: 20px;
+}
+.morecompare-btn {
+    padding: 15px;
+}
+.accorclose{
+    padding: 20px;
+
+}
+.accord-name{
+    display: flex;
+}
+.accord-img img{
+    width:100%;
+}
+.accord-img{
+    width: 20%;
+}
+.accord-para{
+    padding-left: 10px;
+}
+.more-img img{
+    width: 100%;
+}
